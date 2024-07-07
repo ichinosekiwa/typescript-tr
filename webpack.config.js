@@ -10,7 +10,7 @@ module.exports = {
     filename: '[name].js',
   },
   // 開発モード（ソースマップあり）　or プロダクションモード（圧縮された軽いファイル）
-  mode: 'development',
+  mode: 'production',
   resolve: {
     // 拡張子を自動で認識させる
     extensions: ['.ts', '.js'],
